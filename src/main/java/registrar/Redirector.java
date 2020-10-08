@@ -8,15 +8,15 @@ public class Redirector {
         successURL = "it works";
         errorURL = "it does not work";
     }
-    private String Set302(String url) {
+    private String set302(String url) {
         // TODO: do stuff to return the 302 with the url
         return url;
     } 
-    public String Success() {
-        return Set302(this.successURL);
+    public String success() {
+        return set302(this.successURL);
     }
-    public String Error() {
-        return Set302(this.errorURL);
+    public String error() {
+        return set302(this.errorURL);
     }
 }
 

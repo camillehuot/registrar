@@ -19,11 +19,11 @@ public class Application {
       // validate the input
       // register the email
       // return success
-      return redirector.Success();
+      return redirector.success();
     }
     catch (Exception e) {
       // when error, return fail
-      return redirector.Error();
+      return redirector.error();
     }
   }
 
