@@ -25,7 +25,7 @@ public class RegistrationController {
       HttpServletResponse response,
       @RequestParam("email") String email) {
 
-    logger.info("new request with email: " + email);
+    logger.info("New request with email: " + email);
 
     // validate the input: WHY IS ANY STRING VALID!?!
     if (!validator.isValid(email)) {
