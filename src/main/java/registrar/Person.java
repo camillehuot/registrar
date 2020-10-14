@@ -1,10 +1,6 @@
 package registrar;
 
-import org.springframework.data.annotation.Id;
-
 public class Person {
-    @Id
-    private long id;
     private String email;
     private String name;
 
